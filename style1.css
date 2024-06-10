@@ -1,0 +1,37 @@
+/* style1.css */
+
+/* Custom styles for the homepage */
+body {
+    font-family: Arial, sans-serif; /* Set the font family for the entire page */
+    background-color: #f4f4f4; /* Light gray background color for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to the container */
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+}
+
+h1 {
+    color: #ff6347; /* Tomato color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+p {
+    font-size: 1.2em; /* Larger font size for the paragraph */
+    line-height: 1.6; /* Increase the line height for better readability */
+    color: #8a2be2; /* Blue violet color for the paragraph text */
+}
+
+a {
+    color: #8a2be2; /* Blue violet color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+}
